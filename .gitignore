@@ -1,3 +1,42 @@
-bin/*
-AoC*/libaoc*
+# ---------------------------
+# Build directories
+# ---------------------------
+build/
+build-*/
+out/
+bin/
+lib/
+
+# ---------------------------
+# CMake generated files
+# ---------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
 Makefile
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+CMakeUserPresets.json
+
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+*.log
+*.swp
+*.swo
+*~
+.cache/
+
+.vscode/
+
+.idea/
