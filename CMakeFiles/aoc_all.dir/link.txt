@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/aoc_all.dir/main.cpp.o -o bin/aoc_all  AoC25/libaoc_AoC25.a AoC25/libaoc_AoC25_day_01.a AoC25/libaoc_AoC25_day_02.a aoc_utils/libaoc_utils.a 
