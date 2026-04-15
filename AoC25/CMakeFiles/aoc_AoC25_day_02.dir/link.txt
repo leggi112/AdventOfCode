@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaoc_AoC25_day_02.a CMakeFiles/aoc_AoC25_day_02.dir/day_02/day_02.cpp.o
+/usr/bin/ranlib libaoc_AoC25_day_02.a

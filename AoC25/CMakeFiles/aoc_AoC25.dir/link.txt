@@ -1,0 +1,2 @@
+/usr/bin/ar qc libaoc_AoC25.a CMakeFiles/aoc_AoC25.dir/year.cpp.o
+/usr/bin/ranlib libaoc_AoC25.a

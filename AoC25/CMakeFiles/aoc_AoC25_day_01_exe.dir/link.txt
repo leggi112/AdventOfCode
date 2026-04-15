@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/aoc_AoC25_day_01_exe.dir/day_01/main.cpp.o -o ../bin/aoc_AoC25_day_01_exe  libaoc_AoC25_day_01.a ../aoc_utils/libaoc_utils.a 
