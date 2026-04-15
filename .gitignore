@@ -1,0 +1,3 @@
+bin/*
+AoC*/libaoc*
+Makefile
