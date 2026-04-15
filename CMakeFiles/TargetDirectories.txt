@@ -1,0 +1,11 @@
+/home/joni/Schreibtisch/AdventofCode/CMakeFiles/aoc_all.dir
+/home/joni/Schreibtisch/AdventofCode/CMakeFiles/edit_cache.dir
+/home/joni/Schreibtisch/AdventofCode/CMakeFiles/rebuild_cache.dir
+/home/joni/Schreibtisch/AdventofCode/aoc_utils/CMakeFiles/aoc_utils.dir
+/home/joni/Schreibtisch/AdventofCode/aoc_utils/CMakeFiles/edit_cache.dir
+/home/joni/Schreibtisch/AdventofCode/aoc_utils/CMakeFiles/rebuild_cache.dir
+/home/joni/Schreibtisch/AdventofCode/AoC25/CMakeFiles/aoc_AoC25_day_01.dir
+/home/joni/Schreibtisch/AdventofCode/AoC25/CMakeFiles/aoc_AoC25_day_02.dir
+/home/joni/Schreibtisch/AdventofCode/AoC25/CMakeFiles/aoc_AoC25.dir
+/home/joni/Schreibtisch/AdventofCode/AoC25/CMakeFiles/edit_cache.dir
+/home/joni/Schreibtisch/AdventofCode/AoC25/CMakeFiles/rebuild_cache.dir
