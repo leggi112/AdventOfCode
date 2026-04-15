@@ -1,2 +1,0 @@
-/usr/bin/ar qc libaoc_utils.a CMakeFiles/aoc_utils.dir/src/io.cpp.o
-/usr/bin/ranlib libaoc_utils.a
