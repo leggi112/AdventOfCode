@@ -5,6 +5,9 @@
 #include <vector>
 #include <cinttypes>
 #include <string>
+#include <regex>
+
+bool is_valid_2_2_25(const std::string& id);
 
 void AoC25::Day02::run(){
 	long first = AoC25::Day02::solve_part_one();
@@ -41,7 +44,22 @@ long AoC25::Day02::solve_part_one(){
 }
 
 long AoC25::Day02::solve_part_two(){
-	return -1;
+
+	auto puzzle = AoC25::Day02::get_puzzle();	
+	long result = 0;
+	std::string current_str;
+	long start, end;
+
+	for (auto range : puzzle){
+		start = stol(range.first);
+		end = stol(range.second);
+
+		for (long current = start; current <= end; current++){
+			current_str = std::to_string(current);
+			result += is_valid_2_2_25(current_str) ? 0 : current;
+		}
+	}
+	return result;
 }
 
 // Helpers for the day
@@ -63,4 +81,14 @@ std::vector<std::pair<std::string, std::string>> AoC25::Day02::get_puzzle(){
 		result.push_back(element);
 	}
 	return result;
+}
+
+bool is_valid_2_2_25(const std::string& id){
+	std::string test;
+	for (size_t i = 1; i <= id.length()/2; i++){
+		if (id.length() % i != 0){continue;}
+		test = std::regex_replace(id, std::regex(id.substr(0, i)), "");
+		if (test == ""){return false;}
+	}
+	return true;
 }
