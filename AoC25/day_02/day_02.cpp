@@ -10,11 +10,12 @@
 bool is_valid_2_2_25(const std::string& id);
 
 void AoC25::Day02::run(){
-	long first = AoC25::Day02::solve_part_one();
-	long second = AoC25::Day02::solve_part_two();
-
 	std::cout << "Day 2 in 2025:" << std::endl;
+
+	long first = AoC25::Day02::solve_part_one();
 	std::cout << "   1: " << first << std::endl;
+
+	long second = AoC25::Day02::solve_part_two();
 	std::cout << "   2: " << second << std::endl;
 
 }
